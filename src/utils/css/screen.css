@@ -272,7 +272,7 @@ body {
   position: absolute;
   left: 0;
   z-index: 9999;
-  padding: 12px 12px 12px 0;
+  padding: 12px 12px 12px 12px;
 }
 
 @media (max-width: 850px) {

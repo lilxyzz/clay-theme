@@ -1,5 +1,5 @@
 const siteConfig = {
-  name: 'CLAY THEME',
+  name: 'Clay Theme',
   shortName: 'CLAY',
   description: 'Clay - Personal Gatsby Theme',
   url: '/', // Domain of your site without prefix!

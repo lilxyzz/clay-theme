@@ -8,8 +8,8 @@ const siteConfig = {
   twitter: '#' ,
   facebook:'#',
   github:'#',
-  manifest_icon:`src/img/icon.jpg`,
-  image:`/icon.jpg`
+  manifest_icon:`src/img/vase.png`,
+  image:`/vase.png`
 
 }
 

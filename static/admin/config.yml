@@ -1,0 +1,286 @@
+backend:
+  name: git-gateway
+  branch: main
+  commit_messages:
+    create: "Create {{collection}} “{{slug}}”"
+    update: "Update {{collection}} “{{slug}}”"
+    delete: "Delete {{collection}} “{{slug}}”"
+    uploadMedia: "[skip ci] Upload “{{path}}”"
+    deleteMedia: "[skip ci] Delete “{{path}}”"
+
+local_backend: true
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: "blog"
+    label: "News"
+    folder: "src/content/news"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "blog-post",
+        }
+      - {
+          label: "Thumbnail",
+          name: "thumbnail",
+          widget: image,
+          choose_url: false,
+        }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          date_format: "DD/MM/YYYY",
+          time_format: "hh:mm a",
+          format: "YYYY-MM-DDTHH:mm:ssZ",
+          picker_utc: false,
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      # - {
+      #     label: "Nature of Enquiry",
+      #     name: "nature-of-enquiry",
+      #     widget: "select",
+      #     multiple: true,
+      #     min: 1,
+      #     options:
+      #       [
+      #         { label: "General", value: "general" },
+      #         { label: "Purchase", value: "purchase" },
+      #         { label: "Commissions", value: "commissions" },
+      #         { label: "Exhibitions", value: "exhibitions" },
+      #         { label: "Gallery Feature", value: "gallery-feature" },
+      #         { label: "Other", value: "other" },
+      #       ],
+      #   }
+  - name: "work"
+    label: "Work"
+    folder: "src/content/work"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "work-sub-page",
+        }
+      - {
+          label: "Thumbnail",
+          name: "thumbnail",
+          widget: image,
+          choose_url: false,
+        }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          date_format: "DD/MM/YYYY",
+          time_format: "hh:mm a",
+          format: "YYYY-MM-DDTHH:mm:ssZ",
+          picker_utc: false,
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "exhibitions"
+    label: "Exhibitions"
+    folder: "src/content/exhibitions"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "exhibitions-sub-page",
+        }
+      - {
+          label: "Thumbnail",
+          name: "thumbnail",
+          widget: image,
+          choose_url: false,
+        }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          date_format: "DD/MM/YYYY",
+          time_format: "hh:mm a",
+          format: "YYYY-MM-DDTHH:mm:ssZ",
+          picker_utc: false,
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/pages/index.md"
+        label: "Landing Page"
+        name: "index"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "index-page",
+            }
+          - {
+              label: "Thumbnail",
+              name: "thumbnail",
+              widget: image,
+              choose_url: false,
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: "Description", name: "description", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - file: "src/pages/bio/index.md"
+        label: "Bio"
+        name: "bio"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "bio-page",
+            }
+          - {
+              label: "Thumbnail",
+              name: "thumbnail",
+              widget: image,
+              choose_url: false,
+            }
+          - { label: "Date", name: "date", widget: "date" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }
+          - { label: "Numbering", name: "number", widget: "number" }
+          - {
+              label: "Page Type",
+              name: "pagetype",
+              widget: "select",
+              multiple: true,
+              min: 1,
+              options: [{ label: "Main", value: "main" }],
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - file: "src/pages/work/index.md"
+        label: "Work"
+        name: "work"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "work-page",
+            }
+          - {
+              label: "Thumbnail",
+              name: "thumbnail",
+              widget: image,
+              choose_url: false,
+            }
+          - { label: "Date", name: "date", widget: "date" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Numbering", name: "number", widget: "number" }
+
+      - file: "src/pages/exhibitions/index.md"
+        label: "exhibitions"
+        name: "exhibitions"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "exhibitions-page",
+            }
+          - {
+              label: "Thumbnail",
+              name: "thumbnail",
+              widget: image,
+              choose_url: false,
+            }
+          - { label: "Date", name: "date", widget: "date" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Numbering", name: "number", widget: "number" }
+          - {
+              label: "Page Type",
+              name: "pagetype",
+              widget: "select",
+              multiple: true,
+              min: 1,
+              options: [{ label: "Main", value: "main" }],
+            }
+
+      - file: "src/pages/news/index.md"
+        label: "News"
+        name: "news"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "news-page",
+            }
+          - {
+              label: "Thumbnail",
+              name: "thumbnail",
+              widget: image,
+              choose_url: false,
+            }
+          - { label: "Date", name: "date", widget: "date" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Numbering", name: "number", widget: "number" }
+          - {
+              label: "Page Type",
+              name: "pagetype",
+              widget: "select",
+              multiple: true,
+              min: 1,
+              options: [{ label: "Main", value: "main" }],
+            }
+
+      - file: "src/pages/contact/index.md"
+        label: "Contact"
+        name: "contact"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "contact-page",
+            }
+          - {
+              label: "Thumbnail",
+              name: "thumbnail",
+              widget: image,
+              choose_url: false,
+            }
+          - { label: "Date", name: "date", widget: "date" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Numbering", name: "number", widget: "number" }
+          - {
+              label: "Page Type",
+              name: "pagetype",
+              widget: "select",
+              multiple: true,
+              min: 1,
+              options: [{ label: "Main", value: "main" }],
+            }

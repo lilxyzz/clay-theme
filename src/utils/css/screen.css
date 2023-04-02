@@ -206,7 +206,7 @@ body {
   font-size: 3rem;
   line-height: 1em;
   font-weight: 500;
-  text-transform: capitalize;
+  text-transform: uppercase;
   letter-spacing: 3px;
 }
 

@@ -197,7 +197,8 @@ body {
 }
 
 .site-head-logo {
-  font-family: 'Libre Barcode 39', cursive;
+  /*font-family: 'Libre Barcode 39', cursive;*/
+  font-family: 'Muli',sans-serif;
   flex-shrink: 0;
   display: block;
   padding: 10px;

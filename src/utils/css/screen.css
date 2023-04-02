@@ -754,4 +754,6 @@ body {
 /* Image boarder */
 .kg-image { border-radius: 10px; }
 
-.gatsby-resp-image-image { border-radius: 10px !important;}
+img.gatsby-resp-image-image { border-radius: 10px !important;}
+
+img {border-radius: 10px;}

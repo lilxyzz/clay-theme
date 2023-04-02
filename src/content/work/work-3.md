@@ -2,7 +2,7 @@
 templateKey: work-sub-page
 thumbnail: /img/clay-images-16.jpg
 date: 2022-02-04T10:06:48.715Z
-title: CLAY 3
+title: Work 3
 description: "Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!"
 ---
 ![clay-images-17](/img/clay-images-17.jpg)

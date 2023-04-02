@@ -25,7 +25,7 @@ Image-centric theme for publishers, portfolio, photographers blogs and more.
 git clone https://github.com/lilxyzz/gatsby-clay.git
 
 # cd in the project directory
-$ cd Clay
+$ cd gatsby-clay
 
 # install all dependencies for a project
 $ yarn install

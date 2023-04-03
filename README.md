@@ -13,7 +13,7 @@ Image-centric theme for publishers, portfolio, photographers blogs and more.
 - Netlify Contact form Support
 
 ### Pages
-- Bio page
+- Bio
 - Work
 - Sold
 - News

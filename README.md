@@ -1,7 +1,7 @@
 <h1>Clay A Gatsby Theme | <a target="_blank" href="https://clay-gatsby.netlify.app/" rel="nofollow">Demo</a> | <a >Page Speed (90+)</a></h1>
 
 
-![clay-gatsby-theme](https://github.com/lilxyzz/gatsby-clay/blob/master/src/img/clay-gatsby-theme-1.png)
+![clay-gatsby-theme](https://github.com/lilxyzz/gatsby-clay/blob/master/src/img/Clay-Gatsby-theme.png)
 
 ### Description
 

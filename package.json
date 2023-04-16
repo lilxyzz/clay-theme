@@ -3,7 +3,7 @@
   "private": true,
   "description": "A custom, image-centric theme for Gatsby",
   "version": "1.0.0",
-  "author": "Abdul Waqar <abdulwaqar844@gmail.com>",
+  "author": "Travis lord <travis.lord89@gmail.com> & Abdul Waqar <abdulwaqar844@gmail.com>",
   "dependencies": {
     "gatsby": "^5.7.0",
     "gatsby-plugin-feed": "^5.7.0",

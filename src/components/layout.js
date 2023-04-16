@@ -85,13 +85,13 @@ const Layout = props => {
       </main>
       <footer className="site-foot">
         &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
-        Built By{" "}
+        Built with {""}
         <a
-          href="https://travislord.xyz/"
+          href="https://github.com/lilxyzz/gatsby-clay"
           target="_blank"
           rel="noopener noreferrer"
         >
-          TL
+        Gatsby
         </a>
       </footer>
     </div>

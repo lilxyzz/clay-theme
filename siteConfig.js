@@ -4,7 +4,7 @@ const siteConfig = {
   description: 'Clay - Personal Gatsby Theme',
   url: '/', // Domain of your site without prefix!
   prefix: '/',
-  author: 'Travis Lord',
+  author: 'Travis Lord & Abdul Waqar',
   twitter: '#' ,
   facebook:'#',
   github:'#',

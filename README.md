@@ -1,15 +1,12 @@
-<h1>Clay A Gatsby Theme | <a target="_blank" href="https://clay-gatsby.netlify.app/" rel="nofollow">Demo</a> | <a >Lighthouse (90+)</a></h1>
-
-
 ![clay-gatsby-theme](https://github.com/lilxyzz/gatsby-clay/blob/master/src/img/Clay-Gatsby-theme.png)
 
-### Description
+<h1>Clay A Gatsby Theme | <a target="_blank" href="https://clay-gatsby.netlify.app/" rel="nofollow">Demo</a> | <a >Lighthouse (90+)</a></h1>
 
-Image-centric theme for publishers, portfolio, photographers blogs and more.
+Image-centric Gatsby theme for publishers, portfolio, photographers blogs and more.
 
 ### Features
 - Gatsby v5+
-- PWA offline 
+- PWA 
 - Gatsby CMS pre-configured
 - PurgeCSS for bundle size optimization
 - Netlify settings predefine
@@ -24,20 +21,32 @@ Image-centric theme for publishers, portfolio, photographers blogs and more.
 - News
 - Contact
 
+## 🚀 Quick start
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://clay-gatsby.netlify.app/)
 ## Local development
+
+1.  **clone the repository**
 ```
-# clone the repository
+
 git clone https://github.com/lilxyzz/gatsby-clay.git
+```
 
-# cd in the project directory
+2. **cd in the project directory**
+```
 $ cd gatsby-clay
+```
 
-# install all dependencies for a project
+3. install all dependencies for a project
+```
 $ yarn install
+```
 
-# Start local dev server
+4. **start local dev server**
+```
 $ gatsby develop
 ```
+
 **Open the source code and start editing!**
 
 Your site is now running at `http://localhost:8000`!

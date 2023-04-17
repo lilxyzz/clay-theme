@@ -3,7 +3,7 @@
 
 <h1>Clay A Gatsby Theme | <a target="_blank" href="https://clay-gatsby.netlify.app/" rel="nofollow">Demo</a> | <a >Lighthouse (90+)</a></h1>
 
-Image-centric Gatsby theme for publishers, portfolio, photographers blogs and more.
+**Image-centric Gatsby theme for publishers, portfolio, photographers blogs and more.**
 
 ### Features
 - Gatsby v5+
@@ -32,12 +32,12 @@ Image-centric Gatsby theme for publishers, portfolio, photographers blogs and mo
 git clone https://github.com/lilxyzz/gatsby-clay.git
 ```
 
-2. **cd in the project directory**
+2. **cd into the project directory**
 ```
 $ cd gatsby-clay
 ```
 
-3. install all dependencies for a project
+3. **install all dependencies for the project**
 ```
 $ yarn install
 ```
@@ -56,4 +56,4 @@ _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This
   
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-Inspired by <a target="_blank" href="https://gatsbytemplates.io/theme/london-gatsby-theme/" rel="nofollow">Gatsby London</a> 
+**Inspired by <a target="_blank" href="https://gatsbytemplates.io/theme/london-gatsby-theme/" rel="nofollow">Gatsby London</a>** 

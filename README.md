@@ -25,11 +25,10 @@ Image-centric Gatsby theme for publishers, portfolio, photographers blogs and mo
 ## 🚀 Quick start
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://clay-gatsby.netlify.app/)
-## Local development
+### Local development
 
 1.  **clone the repository**
 ```
-
 git clone https://github.com/lilxyzz/gatsby-clay.git
 ```
 

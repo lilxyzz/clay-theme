@@ -8,7 +8,7 @@
 ### Features
 - Gatsby v5+
 - PWA 
-- Gatsby CMS pre-configured
+- Netlify/Decap CMS pre-configured
 - PurgeCSS for bundle size optimization
 - Netlify settings predefine
 - Netlify contact form Support
@@ -16,6 +16,7 @@
 - 90+ Lighthouse 
 
 ### Pages
+- Home
 - Bio
 - Work
 - Sold

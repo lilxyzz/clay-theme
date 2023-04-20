@@ -16,7 +16,7 @@
     "gatsby-plugin-postcss": "^6.7.0",
     "gatsby-plugin-purgecss": "^6.2.1",
     "gatsby-plugin-react-helmet": "^6.7.0",
-    "gatsby-plugin-sharp": "^5.7.0",
+    "gatsby-plugin-sharp": "^5.8.1",
     "gatsby-plugin-sitemap": "^6.7.0",
     "gatsby-remark-copy-linked-files": "^6.7.0",
     "gatsby-remark-images": "^7.7.0",

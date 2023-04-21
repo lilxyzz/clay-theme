@@ -49,10 +49,10 @@
     "prettier": "^2.8.4",
     "pretty-quick": "^3.1.3"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/lilxyzz/gatsby-clay#readme",
   "keywords": [
     "gatsby",
-    "ghost",
+    "personal-website",
     "gallery",
     "blog",
     "starter"
@@ -61,7 +61,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ImedAdel/gatsby-london.git"
+    "url": "git+https://github.com/lilxyzz/gatsby-clay.git"
   },
   "scripts": {
     "build": "gatsby clean && gatsby build",

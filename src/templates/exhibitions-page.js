@@ -14,7 +14,7 @@ const WorkPage = ({ data }) => {
 
     return (
         <Layout title={siteTitle} social={social}>
-       <Seo keywords={[`Contemporary artist exhibitions`, `Contemporary exhibitions`, `Artwork for sale`]}
+       <Seo keywords={[`Gatsby Theme`, `Free Gatsby Template`, `Clay Gatsby Theme`]}
         title={data.markdownRemark.frontmatter.title}
         description={data.markdownRemark.frontmatter.description || ''}
         image={data.markdownRemark.frontmatter.thumbnail.childImageSharp.fluid.src}

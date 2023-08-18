@@ -23,6 +23,10 @@
 - News
 - Contact
 
+### Coming soon 
+- Elements page 
+- Light & Dark mode 
+
 ## 🚀 Quick start
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://clay-gatsby.netlify.app/)

@@ -14,7 +14,7 @@ const IndexPage = ({ data }) => {
 
     return (
         <Layout title={siteTitle} social={social}>
-            <Seo keywords={[`Rai Julian`, `Contemporary Artist`, `Canggu, Bali, Indonesia`]}
+            <Seo keywords={[`Gatsby Theme`, `Free Gatsby Template`, `Clay Gatsby Theme`]}
                 title={data.markdownRemark.frontmatter.title}
                 description={data.markdownRemark.frontmatter.description ||  ''}
                 image={data.markdownRemark.frontmatter.thumbnail.childImageSharp.fluid.src}

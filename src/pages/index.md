@@ -1,8 +1,8 @@
 ---
 templateKey: index-page
-title: Personal Gatsby Theme
+title: Clay Gatsby Theme 
 image: /img/clay-images-7.jpg
-description: Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!
+description: A stunning Gatsby theme designed for captivating image-centric websites, perfect for photographers, portfolios, and blogs.
 thumbnail: /img/clay-images-7.jpg
 heading: Main Heading
 subheading: Sub HEading

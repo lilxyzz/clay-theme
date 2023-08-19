@@ -39,14 +39,14 @@ const Layout = props => {
               <li className={`nav-home  ${data.pathname.includes('/work') ? 'nav-current' : ""} `} role="menuitem">
                 <Link to={`/work`}>Work</Link>
               </li>
-              <li className={`nav-home  ${data.pathname.includes('/sold') ? 'nav-current' : ""} `} role="menuitem">
-                <Link to={`/sold`}>Sold</Link>
-              </li>
               <li className={`nav-home  ${data.pathname.includes('/news') ? 'nav-current' : ""} `} role="menuitem">
                 <Link to={`/news`}>News</Link>
               </li>
               <li className={`nav-home  ${data.pathname.includes('/contact') ? 'nav-current' : ""} `} role="menuitem">
                 <Link to={`/contact`}>Contact</Link>
+              </li>
+              <li className={`nav-home  ${data.pathname.includes('/elements') ? 'nav-current' : ""} `} role="menuitem">
+                <Link to={`/elements`}>Elements</Link>
               </li>
             </ul>
           </nav>
@@ -73,6 +73,16 @@ const Layout = props => {
               >
                 Instagram
               </Link>
+
+              
+              <Link
+                to={`https://github.com/lilxyzz/gatsby-clay`}
+                title="Github"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </Link>
               
             </div>
           </div>
@@ -87,12 +97,31 @@ const Layout = props => {
         &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
         Built with {""}
         <a
-          href="https://github.com/lilxyzz/gatsby-clay"
+          href="https://gatsbyjs.org/"
           target="_blank"
           rel="noopener noreferrer"
         >
         Gatsby
         </a>
+         <br></br>
+         Recreated by &nbsp;
+         <Link
+                to={`https://github.com/lilxyzz`}
+                title="Travis"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Travis
+              </Link>
+              &nbsp;&&nbsp;
+              <Link
+                to={`https://github.com/abdulwaqar844`}
+                title="Abdul"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Abdul
+              </Link>
       </footer>
     </div>
   )

@@ -72,9 +72,9 @@ input[type="reset"],
 input[type="button"],
 button,
 .button {
-  color: var(--color-primary) !important;
-  background-color: transparent;
-  box-shadow: inset 0 0 0 2px var(--color-primary);
+  color: #fff !important;
+  background-color: #000;
+  box-shadow: inset 0 0 0 2px #000 ;
 }
 
 input[type="submit"]:hover,

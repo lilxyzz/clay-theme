@@ -601,7 +601,7 @@ body {
 .post-content-body blockquote {
   margin: 0 0 1.5em;
   padding: 0 1.5em;
-  border-left: #3eb0ef 3px solid;
+  border-left: #000 3px solid;
 }
 
 .post-content-body blockquote p {
@@ -635,10 +635,10 @@ body {
   padding: 20px;
   max-width: 100%;
   border: color(var(--color-base) l(-10%)) 1px solid;
-  color: var(--color-bg);
+  color: #080808;
   font-size: 1.4rem;
   line-height: 1.5em;
-  background: color(var(--color-base) l(-3%));
+  background: #eeeeee;
   border-radius: 5px;
 }
 
@@ -668,10 +668,10 @@ body {
   left: 50%;
   display: block;
   margin-left: -10px;
-  width: 1px;
+  width: 0px;
   height: 30px;
   background: color(var(--color-border) l(+10%));
-  box-shadow: #fff 0 0 0 5px;
+  box-shadow: #000 0 0 0 1px;
   transform: rotate(45deg);
 }
 

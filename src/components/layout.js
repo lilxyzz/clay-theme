@@ -83,6 +83,7 @@ const Layout = props => {
               >
                 Github
               </Link>
+
               
             </div>
           </div>
@@ -103,25 +104,7 @@ const Layout = props => {
         >
         Gatsby
         </a>
-         <br></br>
-         Recreated by &nbsp;
-         <Link
-                to={`https://github.com/lilxyzz`}
-                title="Travis"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Travis
-              </Link>
-              &nbsp;&&nbsp;
-              <Link
-                to={`https://github.com/abdulwaqar844`}
-                title="Abdul"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Abdul
-              </Link>
+         
       </footer>
     </div>
   )

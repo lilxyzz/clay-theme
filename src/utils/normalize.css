@@ -534,3 +534,6 @@ caption {
     "onum" 0, "lnum" 1, "zero" 1;
   /* 1. */
 }
+
+/* disable post content from being clickable */
+.post-content-body a:-webkit-any-link   { pointer-events: none !important;}

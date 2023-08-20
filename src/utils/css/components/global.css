@@ -354,7 +354,7 @@ h5,
 h6 {
     margin-top: 0;
     line-height: 1.4;
-    font-weight: 700;
+    font-weight: 500;
     text-rendering: optimizeLegibility;
 }
 
@@ -418,4 +418,3 @@ h6 {
         font-size: 1.4rem;
     }
 }
-

@@ -23,7 +23,15 @@ const BioPage = (props) => {
               <article className="post-content page-template no-image">
 
               <div className="post-content-body">
-            <p>
+         
+          <h1 id="heading-level-1">Heading Level 1</h1>
+          <h2 id="heading-level-2">Heading Level 2</h2>
+          <h3 id="heading-level-3">Heading Level 3</h3>
+          <h4 id="heading-level-4">Heading Level 4</h4>
+          <h5 id="heading-level-5">Heading Level 5</h5>
+          <h6 id="heading-level-6">Heading Level 6</h6>
+          <hr />
+          <p>
             This is{" "}
             <strong>
               <strong>bold</strong>
@@ -48,11 +56,6 @@ const BioPage = (props) => {
             </code>
             . Finally, this is a <a href="#">link</a>.
           </p>
-          <h2 id="heading-level-2">Heading Level 2</h2>
-          <h3 id="heading-level-3">Heading Level 3</h3>
-          <h4 id="heading-level-4">Heading Level 4</h4>
-          <h5 id="heading-level-5">Heading Level 5</h5>
-          <h6 id="heading-level-6">Heading Level 6</h6>
           <hr />
           <h2 id="this-is-a-section">This is a section</h2>
           <p>
@@ -366,6 +369,7 @@ const BioPage = (props) => {
               </div>
             </div>
           </form>
+          <hr />
           <h2 id="code">Code</h2>
           <pre>
             <code>
@@ -380,6 +384,7 @@ const BioPage = (props) => {
               {"\n"}print 'It took ' + i + ' iterations to sort the deck.';
             </code>
           </pre>
+          <hr />
           <h2 id="grid-system">Grid system</h2>
           <div className="row">
             <div className="col-12">

@@ -1,7 +1,7 @@
 
 ![clay-gatsby-theme](https://github.com/lilxyzz/gatsby-clay/blob/master/src/img/Clay-Gatsby-theme.png)
 
-<h1>Clay A Gatsby Theme | <a target="_blank" href="https://clay-gatsby.netlify.app/" rel="nofollow">Demo</a> | <a >Lighthouse (90+)</a></h1>
+<h1>Clay A Gatsby Theme | <a target="_blank" href="https://clay-theme.netlify.app" rel="nofollow">Demo</a> | <a >Lighthouse (90+)</a></h1>
 
 **Image-centric Gatsby theme for publishers, portfolio, photographers blogs and more.**
 
@@ -28,17 +28,17 @@
 
 ## 🚀 Quick start
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://clay-gatsby.netlify.app/)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/lilxyzz/clay-theme)
 ### Local development
 
 1.  **clone the repository**
 ```
-git clone https://github.com/lilxyzz/gatsby-clay.git
+git clone https://github.com/lilxyzz/clay-theme.git
 ```
 
 2. **cd into the project directory**
 ```
-$ cd gatsby-clay
+$ cd clay-theme
 ```
 
 3. **install all dependencies for the project**

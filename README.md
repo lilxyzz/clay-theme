@@ -1,5 +1,6 @@
-<center>
-# Clay - A Gatsby Theme | [Demo](https://clay-theme.netlify.app)
+
+<h1 align=center>  Clay - A Gatsby Theme | <a href="https://clay-theme.netlify.app" rel="nofollow">Demo</a></h1>
+
 
 ![clay-gatsby-theme](https://github.com/lilxyzz/gatsby-clay/blob/master/src/img/Clay-Gatsby-theme.png)
 <br></br>
@@ -13,7 +14,7 @@ An image-centric Gatsby theme for publishers, portfolio, photographers blogs and
 Visually engaging Gatsby theme tailored for publishers, portfolios and more, meticulously crafted to showcase your graphics seamlessly. It's completely free and fully responsive, ensuring a stunning display across all devices.
 
 **If you found the repository valuable or enjoyed using it, consider showing your support by giving it a 5-star rating 🍻**
-</center>
+
 
 ## ⭐ Feature highlights
 

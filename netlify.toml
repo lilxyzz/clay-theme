@@ -7,6 +7,10 @@
   YARN_FLAGS = "--no-ignore-optional"
 
 
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "ALLOW-FROM https://builtatlightspeed.com, https://jamstackthemes.dev"
 
     
 

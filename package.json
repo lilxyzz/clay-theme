@@ -9,7 +9,7 @@
     "gatsby-plugin-feed": "^5.7.0",
     "gatsby-plugin-google-analytics": "^5.7.0",
     "gatsby-plugin-image": "^3.7.0",
-    "gatsby-plugin-manifest": "^5.7.0",
+    "gatsby-plugin-manifest": "^5.13.1",
     "gatsby-plugin-netlify": "^5.1.0",
     "gatsby-plugin-netlify-cms": "^7.7.0",
     "gatsby-plugin-offline": "^6.7.0",

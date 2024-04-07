@@ -11,7 +11,7 @@
     "gatsby-plugin-image": "^3.7.0",
     "gatsby-plugin-manifest": "^5.7.0",
     "gatsby-plugin-netlify": "^5.1.0",
-    "gatsby-plugin-netlify-cms": "^7.7.0",
+    "gatsby-plugin-netlify-cms": "^7.12.1",
     "gatsby-plugin-offline": "^6.7.0",
     "gatsby-plugin-postcss": "^6.7.0",
     "gatsby-plugin-purgecss": "^6.2.1",

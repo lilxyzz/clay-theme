@@ -6359,15 +6359,15 @@ gatsby-plugin-manifest@^5.7.0:
     semver "^7.5.1"
     sharp "^0.32.1"
 
-gatsby-plugin-netlify-cms@^7.7.0:
-  version "7.11.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify-cms/-/gatsby-plugin-netlify-cms-7.11.0.tgz#2830f2fa35481a9608911d443e2dd1d12f35e309"
-  integrity sha512-SkqEqEBTJx+eFpVCsQidN2E44sLa6Wemq1BVYmWvvBjYOYlvMnsJV/v9xfE/pslFBGxjw2tt1WwmxZhXZktU/g==
+gatsby-plugin-netlify-cms@^7.12.1:
+  version "7.12.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify-cms/-/gatsby-plugin-netlify-cms-7.12.1.tgz#b42c77c43d18e5e8faf70ce6c59fb030cd9d0cef"
+  integrity sha512-212zvouWh5RxwvQQyEb0VM45zS6DeUWohMNHYXy3WONnA94TK2TSViwIfhzF/g9ZzyDcJcMLjELrGiV1SK3HyA==
   dependencies:
     "@babel/runtime" "^7.20.13"
     "@soda/friendly-errors-webpack-plugin" "1.8.1"
     copy-webpack-plugin "^7.0.0"
-    html-webpack-plugin "^5.5.1"
+    html-webpack-plugin "^5.5.3"
     html-webpack-skip-assets-plugin "^1.0.3"
     html-webpack-tags-plugin "^3.0.2"
     lodash "^4.17.21"
@@ -7426,10 +7426,10 @@ html-void-elements@^1.0.0:
   resolved "https://registry.yarnpkg.com/html-void-elements/-/html-void-elements-1.0.5.tgz#ce9159494e86d95e45795b166c2021c2cfca4483"
   integrity sha512-uE/TxKuyNIcx44cIWnjr/rfIATDH7ZaOMmstu0CwhFG1Dunhlp4OC6/NMbhiwoq5BpW0ubi303qnEk/PZj614w==
 
-html-webpack-plugin@^5.5.1:
-  version "5.5.3"
-  resolved "https://registry.yarnpkg.com/html-webpack-plugin/-/html-webpack-plugin-5.5.3.tgz#72270f4a78e222b5825b296e5e3e1328ad525a3e"
-  integrity sha512-6YrDKTuqaP/TquFH7h4srYWsZx+x6k6+FbsTm0ziCwGHDP78Unr1r9F/H4+sGmMbX08GQcJ+K64x55b+7VM/jg==
+html-webpack-plugin@^5.5.3:
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/html-webpack-plugin/-/html-webpack-plugin-5.6.0.tgz#50a8fa6709245608cb00e811eacecb8e0d7b7ea0"
+  integrity sha512-iwaY4wzbe48AfKLZ/Cc8k0L+FKG6oSNRaZ8x5A/T/IVDGyXcbHncM9TdDa93wn0FsSm82FhTKW7f3vS61thXAw==
   dependencies:
     "@types/html-minifier-terser" "^6.0.0"
     html-minifier-terser "^6.0.2"

@@ -46,7 +46,7 @@
     "postcss-color-function": "^4.1.0",
     "postcss-custom-properties": "^13.3.10",
     "postcss-easy-import": "^4.0.0",
-    "prettier": "^3.2.5",
+    "prettier": "^3.3.2",
     "pretty-quick": "^4.0.0"
   },
   "homepage": "https://github.com/lilxyzz/gatsby-clay#readme",

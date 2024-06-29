@@ -1,13 +1,13 @@
-import React from "react"
-import { Link } from "gatsby"
-import { useLocation } from '@reach/router';
+import React from "react";
+import { Link } from "gatsby";
+import { useLocation } from "@reach/router";
 
-const Layout = props => {
-  const data = useLocation()
-  const { title, children, social } = props
+const Layout = (props) => {
+  const data = useLocation();
+  const { title, children, social } = props;
   // const path = props&&props.location&&props.location
 
-  const [toggleNav, setToggleNav] = React.useState(false)
+  const [toggleNav, setToggleNav] = React.useState(false);
   return (
     <div className={`site-wrapper ${toggleNav ? `site-head-open` : ``}`}>
       <header className="site-head">
@@ -30,22 +30,40 @@ const Layout = props => {
           </a>
           <nav id="swup" className="site-head-left">
             <ul className="nav" role="menu">
-              <li className={`nav-home  ${data.pathname === '/' ? 'nav-current' : ""} `} role="menuitem">
+              <li
+                className={`nav-home  ${data.pathname === "/" ? "nav-current" : ""} `}
+                role="menuitem"
+              >
                 <Link to={`/`}>Home</Link>
               </li>
-              <li className={`nav-home  ${data.pathname.includes('/bio') ? 'nav-current' : ""} `} role="menuitem">
+              <li
+                className={`nav-home  ${data.pathname.includes("/bio") ? "nav-current" : ""} `}
+                role="menuitem"
+              >
                 <Link to={`/bio`}>Bio</Link>
               </li>
-              <li className={`nav-home  ${data.pathname.includes('/work') ? 'nav-current' : ""} `} role="menuitem">
+              <li
+                className={`nav-home  ${data.pathname.includes("/work") ? "nav-current" : ""} `}
+                role="menuitem"
+              >
                 <Link to={`/work`}>Work</Link>
               </li>
-              <li className={`nav-home  ${data.pathname.includes('/news') ? 'nav-current' : ""} `} role="menuitem">
+              <li
+                className={`nav-home  ${data.pathname.includes("/news") ? "nav-current" : ""} `}
+                role="menuitem"
+              >
                 <Link to={`/news`}>News</Link>
               </li>
-              <li className={`nav-home  ${data.pathname.includes('/contact') ? 'nav-current' : ""} `} role="menuitem">
+              <li
+                className={`nav-home  ${data.pathname.includes("/contact") ? "nav-current" : ""} `}
+                role="menuitem"
+              >
                 <Link to={`/contact`}>Contact</Link>
               </li>
-              <li className={`nav-home  ${data.pathname.includes('/elements') ? 'nav-current' : ""} `} role="menuitem">
+              <li
+                className={`nav-home  ${data.pathname.includes("/elements") ? "nav-current" : ""} `}
+                role="menuitem"
+              >
                 <Link to={`/elements`}>Elements</Link>
               </li>
             </ul>
@@ -74,7 +92,6 @@ const Layout = props => {
                 Instagram
               </Link>
 
-              
               <Link
                 to={`https://github.com/lilxyzz/gatsby-clay`}
                 title="Github"
@@ -83,8 +100,6 @@ const Layout = props => {
               >
                 Github
               </Link>
-
-              
             </div>
           </div>
         </div>
@@ -96,18 +111,25 @@ const Layout = props => {
       </main>
       <footer className="site-foot">
         &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
-        Built with {""}
+        Built by {""}
         <a
-          href="https://gatsbyjs.org/"
+          href="https://travislord.xyz/"
           target="_blank"
           rel="noopener noreferrer"
         >
-        Gatsby
+          Travis Lord
         </a>
-         
+        {""} & {""}
+        <a
+          href="https://github.com/abdulwaqar844"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Abdul Waqar
+        </a>
       </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

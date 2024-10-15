@@ -12,7 +12,7 @@
     "gatsby-plugin-manifest": "^5.13.1",
     "gatsby-plugin-netlify": "^5.1.1",
     "gatsby-plugin-netlify-cms": "^7.12.1",
-    "gatsby-plugin-offline": "^6.13.2",
+    "gatsby-plugin-offline": "^6.13.3",
     "gatsby-plugin-postcss": "^6.13.1",
     "gatsby-plugin-purgecss": "^6.2.1",
     "gatsby-plugin-react-helmet": "^6.13.1",

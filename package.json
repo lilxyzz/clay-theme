@@ -38,7 +38,8 @@
     "typeface-merriweather": "1.1.13",
     "typeface-montserrat": "1.1.13",
     "typeface-nunito": "^1.1.13",
-    "url-join": "^5.0.0"
+    "url-join": "^5.0.0",
+    "valid-url": "^1.0.9"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",

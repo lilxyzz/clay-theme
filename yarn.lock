@@ -3564,15 +3564,6 @@ babel-plugin-polyfill-regenerator@^0.6.1:
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.6.2"
 
-babel-plugin-remove-graphql-queries@^5.13.1:
-  version "5.13.1"
-  resolved "https://registry.yarnpkg.com/babel-plugin-remove-graphql-queries/-/babel-plugin-remove-graphql-queries-5.13.1.tgz#bf1feb392d8a1f74046f9584c72c952663a10695"
-  integrity sha512-yncJ/W6Un48aBRpK/rmdpQOMcr4+EmJ3oi2Wq1zXKu8WLlw+j93KTbejf7fg2msm8GUskb/+9Nnpz7oMCqO9aA==
-  dependencies:
-    "@babel/runtime" "^7.20.13"
-    "@babel/types" "^7.20.7"
-    gatsby-core-utils "^4.13.1"
-
 babel-plugin-remove-graphql-queries@^5.15.0:
   version "5.15.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-remove-graphql-queries/-/babel-plugin-remove-graphql-queries-5.15.0.tgz#9ff3b655dc4c3b141bc5fbc53ce6448ba17d1ee0"
@@ -4182,7 +4173,7 @@ cheerio@1.0.0-rc.12, cheerio@^1.0.0-rc.12:
     parse5 "^7.0.0"
     parse5-htmlparser2-tree-adapter "^7.0.0"
 
-chokidar@^3.4.2, chokidar@^3.5.3, chokidar@^3.6.0:
+chokidar@^3.4.2, chokidar@^3.6.0:
   version "3.6.0"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.6.0.tgz#197c6cc669ef2a8dc5e7b4d97ee4e092c3eb0d5b"
   integrity sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==
@@ -6371,11 +6362,6 @@ gatsby-core-utils@^4.15.0:
     tmp "^0.2.1"
     xdg-basedir "^4.0.0"
 
-gatsby-graphiql-explorer@^3.13.1:
-  version "3.13.1"
-  resolved "https://registry.yarnpkg.com/gatsby-graphiql-explorer/-/gatsby-graphiql-explorer-3.13.1.tgz#906f5b75f9c01ca5cd836de6cda60e376126e3e2"
-  integrity sha512-WR6jv18OhKLwK/hGZ6ZGUd82GFtM6gHz+sOpgsJJx/+uqRjZwqcrH2LSrWRSWUCk7FoZY1rJuBSD1QkOODV01A==
-
 gatsby-graphiql-explorer@^3.15.0:
   version "3.15.0"
   resolved "https://registry.yarnpkg.com/gatsby-graphiql-explorer/-/gatsby-graphiql-explorer-3.15.0.tgz#f0a4e3f713bac19b76f5ee894f9e345c601c0ba4"
@@ -6635,10 +6621,6 @@ gatsby-plugin-utils@^4.15.0:
     joi "^17.11.0"
     mime "^3.0.0"
 
-gatsby-react-router-scroll@^6.13.1:
-  version "6.13.1"
-  resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-6.13.1.tgz#b20d492a1fc0ac4f31a0435452b06e22e8cb6c41"
-  integrity sha512-srBpg/ZHW4miwH/4OWOcspHqr8ZmKLE4DBNvckt0KO4giJerWiGoLj6qePwLFRWZPfV7txJr2kuUzACxarpL5g==
 gatsby-react-router-scroll@^6.15.0:
   version "6.15.0"
   resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-6.15.0.tgz#4d24acd3c07547fa2bf1940205f63793cd1d4f3d"
@@ -6737,16 +6719,16 @@ gatsby-sharp@^1.15.0:
   dependencies:
     sharp "^0.32.6"
 
-gatsby-source-filesystem@^5.13.1:
-  version "5.13.1"
-  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-5.13.1.tgz#1aad8f969fbfd4efe6f7cfcd8542253f54fdbd8a"
-  integrity sha512-nFWzOBpi84nDeVNeO7bpKL9mVYMl1tfjJmE5l868YATFShGzZnA6qMd200XCsf78PexZHAiV/P1MlsyKqjJduA==
+gatsby-source-filesystem@^5.15.0:
+  version "5.15.0"
+  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-5.15.0.tgz#4157ae2ae41939f83f4599033ede5160bd58e010"
+  integrity sha512-i8pJdgGEVo+M9F1BCChKg3kzxpMTsK/wddtNvUPZj47yJGNJlW3Cax6Qr8mTu8/Rm5kno4+uM8eLKjwdB0ajMQ==
   dependencies:
     "@babel/runtime" "^7.20.13"
-    chokidar "^3.5.3"
+    chokidar "^3.6.0"
     file-type "^16.5.4"
-    fs-extra "^11.1.1"
-    gatsby-core-utils "^4.13.1"
+    fs-extra "^11.2.0"
+    gatsby-core-utils "^4.15.0"
     mime "^3.0.0"
     pretty-bytes "^5.6.0"
     valid-url "^1.0.9"
